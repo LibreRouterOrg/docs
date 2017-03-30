@@ -1,0 +1,20 @@
+*~
+*.aux
+*.lof
+*.log
+*.lot
+*.out
+*.toc
+*.brf
+*.nav
+*.snm
+*.synctex.gz
+*.bbl
+*.blg
+*.delivs
+*.pdata
+*.run.xml
+*.autosave
+
+## ignore .pdf just form the root dir (.pdf maybe sources in other subdirs)
+/*.pdf
