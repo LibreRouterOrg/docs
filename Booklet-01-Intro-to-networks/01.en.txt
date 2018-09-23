@@ -1,0 +1,175 @@
+1)
+Libre, Community and Decentralised Networks
+
+2a)
+AlterMundi facilitates the birth of new libre and community networks connected to the internet from a perspective of popular empowerment based on appropriation of technology by way of collaboration among peers and the use and development of libre software and hardware.
+The principal objective is to develop a network model for self-provisioning of communication services in digitally-excluded regions.
+Based on the effort and organization of the community, this model offers the opportunity to satisfy a need now considered basic for human development: digital communication.
+
+3a)
+Our little piece of the internet
+
+3b)
+"Currently 52% of people living on Earth do not have internet access." *
+
+3c)
+This inequality is deeper in rural areas of Africa, Latin America and the global south, where the low population density and low income generate little incentive for the deployment of commercial network infrastructure. This makes them digitally excluded or neglected areas.
+In most cases, people living in digitally excluded areas also have other difficulties such as insufficient economic resources, employment, education, transportation, electricity, gender equality and access to land and potable water.
+
+3d)
+The fundamental role of libre and community networks is to facilitate the construction of low-cost autonomous technological infrastructure for deployment of internet networks. The primary objective is to overcome the barriers imposed by centralization and control of commercial network infrastructure and the content that circulates on that infrastructure.
+
+3e)
+*The State of Broadband: Broadband catalyzing sustainable development. September 2017 / 
+Broadband Commission for Sustainable Development - ITU – UNESCO
+
+4a)
+The challenge is not only to facilitate internet access, but rather to build our little piece of the internet via libre and community networks governed by the communities themselves, in collaborative and organized ways.
+
+4b)
+Internet is a tool to increase transparency and access to information and to facilitate civic engagement in support of social, cultural, economic and political changes that improve the situation of the communities.
+
+4c)
+Libre and community networks encourage the consolidation of cooperative community empowerment processes for an "other world that is possible."
+.
+
+4d)
+Seen this way, it becomes vital and necessary to think of the internet as a common good (or as a commons).
+
+5a)
+Libre, community and decentralized networks
+
+5b)
+Upon deciding to connect to the internet, we become part of it and we can choose how to participate in that global network of networks.
+
+5c)
+An open, neutral and decentralized network is built by the communities through agreements and consensus. This process collaborates with autonomy, sustainability and the functioning of the libre community network.
+At the same time, it empowers the communities to design the structure and functioning of their own network, respecting local identities and needs.
+Libre community networks allow learning and knowing how the network functions to be able to make decision about the network and not be subordinate to the rules of commerce or the imposed criteria that, in most cases, are opposed to the communities' interests.
+The use and understanding of technologies promotes an inclusive and conscious access to digital resources, facilitating education, learning, sharing knowledge, creating local means of communition and media, civic engagement and social and regional economy.
+
+6a)
+Libre, Community Decentralized Networks
+
+6b)
+Libre use
+Neutrality
+Libre interconnection
+Libre transit
+
+6c)
+Collective property
+Social management
+Accessible design
+Open participation
+
+6d)
+Distributed
+Scalable
+Low cost
+
+7a)
+Community networks have specific charateristics that define them and are their strengths:
+
+7b)
+Collective property
+This means that the infrastructure (antennas, routers, cables, etc.) is property of all the member sof the network and of the community that deploys it. There are no individual owners, nor private owners, nor any more important than the others.
+Social management
+Means the network is adminstered by the members of the network. There is no one person that rules, rather the decisions are made by everyone.
+Accessible design
+The infrormation about how the network and its components function is public and accessible so that everyone can know and learn, and also copy and share.
+Open participation
+Means that anyone can join or extend the network, respecting its design, its principles and its way of organizing.
+
+7c)
+A libre community network is not a free or low cost service for internet connection.
+It is an organized group of people working to guarantee their community's right to communication.
+
+8a)
+And, in addition to being a community network, in orde to be a libre network it must meet these four characteristics:
+
+8b)
+Libre use
+It allows unrestricted transit to receive and offer any kind of service and content, so long as it does not affect the good functioning of the network. In other words, the flow of data on the network is unconditional.
+Neutrality
+This characteristic means data traffic is managed in an egalitarian way, without discrimination based on content, platform, application or type of equipment used for access. Data flows within the network are not ranked nor modified arbitrarily.
+Libre interconnection
+This means guaranteeing the interconnection among networks, with a libre, neutral and free of cost flow of data in both directions, reciprocally.
+Libre transit
+Two networks that have a libre transit agreement not only allow data traffic between each other, but also the flow of traffic destined for other networks that they have similar agreements with. The data can therefore cross one libre network to reach another, expanding the reach of the "network of libre networks."
+
+9)
+In this illustartion there are two types of interconnection contracts represented:
+- The network of community networks have a contract among themselves as equals for libre transit and for interconnection free of cost, respecting neutrality. Thanks to these contracts, network 1 can communicate with network 3 crossing network 2 without limitations.
+- Networks 2 and 3 have a commercial service to connect with the rest of the internet, via a contractual relationship that is not between peers, but rather provider-consumer. This provider does not share with their clients any aspect of the deployment or configuration of their network.
+
+10a)
+Deploying therese libre community networks with a msh topology allows the development of the characteristics mentioned above in a more natural way, given that its basic characteristic is decentralization.
+In this type of mesh network, each wireless node (router and antenna) connects with one or more neighbouring nodes. In this way, the path of data traffic changes automatically when one of the stops functioning. At the same time, it is no longer necessary to have central access points. For these reasons, mesh networks are decentralized and distributed networks.
+
+10b)
+A NODE is composed of an antenna, a router and the softwrae that allows connectivity.
+
+11a)
+This distributed network design is less expensive because it does not need costly central nodes. The network grows from node to node, extending progressively and keeping the deployment and maintenance costs in pace with network scale.
+
+11b)
+When we say that we want to create libre, decentralized community networks, we mean collectively building our little piece of the internet in order to be ourselves more free and communal [or community-spirited].
+
+12a)
+The LibreRouter Project: A community for your network
+
+12b)
+For a long time, libe community networks were built by the collaborative work of people who prgammed and hacked. Together they developed libre software and modified the available hardware, responding to the specific needs of the networks.
+One of the achievements was to change the proprietary software that some commercial household routers came with from the factory.
+This allowed the use of the routers to their full potential, enabling functions that the manufacturers limited according to their market logic. The contribution lowered costs notably for deployment of open, libre, neutral and decentralized networks.
+In August 2016, a regulation emitted by the US state agency FCC (Federal Communitcations Commission) led to the manufacturers blocking the substitution of the software that comes installed and configured from the factory.
+This action made clear that community networks were hostage to arbitrary decisions in which they had little or no capacity to decide or act.
+
+13a)
+The LibreRouter project develops hardware, software and documentation focused on the needs of digitally excluded areas of the global south.
+Some notable characteristics include:
+
+13b)
+Hardware
+The router and its antennas are protected by weather-resistant plastic cases.
+The board has different connectors available to adapt the node to particular uses. For example, a GPS module.
+The design of the hardware is available for whomever wants to study, modify and reproduce it, since it is libre hardware.
+The LibreRouter comes ready to use with LibreMesh preinstalled.
+
+14a)
+Software 
+The applications and programs are designed as part of a process in which people without knowledge of networks can learn to configure, map, monitor and troubleshoot the network with ease.
+Simplifies network expansion. New nodes auto-configure based on the information they recieve from existing nodes.
+All software developed by AlterMundi has a libre license, so anyone can use it and adapt it to their needs.
+
+14b)
+Documentation
+Our documentation explains the use of the LibreRouter and the applications that come with it.
+On our website docs.altermundi.net all the documentation is available in illustrated and audiovisual form and in multiple languages.
+Anyone can freely use, copy, modify, translate and share our content.
+
+15a)
+A network in your community
+
+15b)
+Through our documentation, we share one possible way to organize a community to begin this path of building a libre community network for internet in your communities.
+It is a continous cyclical process of mutual aid among people to carry out the organization of the work and the goals.
+
+15c)
+Planning
+Deployment
+Maintenance
+
+15d)
+These cycles of work and organization guide the deployment and maintenance of the network and they continue throughout its existence and development, strengthening and transforming the network. These cycles contribute to the creation of the network as a meeting place and collective identity.
+
+16)
+Is there a community network project?
+Count on us.
+We would love to join you!
+info@altermundi.net
+More information and documentation
+blog.altermundi.net
+docs.altermundi.net
+librerouter.org
