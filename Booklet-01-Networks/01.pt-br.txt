@@ -1,0 +1,188 @@
+1)
+Redes livres, comunitárias e descentralizadas
+
+2a)
+AlterMundi funciona facilitando o nascimento de novas redes de Internet gratuitas e comunitárias
+a partir de uma perspectiva de empoderamento popular a partir da apropriação da tecnologia através da colaboração entre os pares e o uso e desenvolvimento de software e hardware livre.
+O objetivo principal é desenvolver um modelo de rede de autoatendimento para serviços de comunicação que possa ser replicado em regiões excluídas digitalmente.
+Este modelo oferece a oportunidade de resolver, com base no esforço e organização do
+comunidades, uma necessidade que hoje é considerada básica para o desenvolvimento humano: a comunicação digital.
+
+3a)
+Nosso pouco de internet
+
+3b)
+"Atualmente, 52% das pessoas no mundo não têm acesso à Internet." *
+
+3c)
+Essa desigualdade é acentuada nas áreas rurais da África, América Latina e do sul global, onde a baixa densidade populacional e a baixa renda representam pouco incentivo para a implantação comercial da infraestrutura de rede. Isso os transforma em áreas digitalmente excluídas ou não atendidas.
+A realidade é que as pessoas que vivem em áreas digitalmente excluídas, na maioria dos casos, também enfrentam outras dificuldades, como escassos recursos econômicos e trabalhistas,
+educação, transporte, eletricidade, igualdade de gênero, acesso à terra ou água potável.
+
+3d)
+Redes livres e comunitárias têm o papel fundamental de facilitar a construção de infraestruturas tecnológicas autônomas de baixo custo para implantar redes de Internet. O objetivo principal é superar as barreiras impostas pela centralização e controle das infra-estruturas das redes comerciais e dos conteúdos que circulam por elas.
+
+3e)
+* O Estado da Banda Larga: Banda Larga, catalisando o desenvolvimento sustentável. Setembro de 2017 /
+Comissão de Banda Larga para o Desenvolvimento Sustentável - UIT - UNESCO
+
+4a)
+O desafio não é apenas facilitar o acesso, mas também construir nossa
+pouco da Internet através de redes livres e comunitárias regidas por
+suas próprias comunidades, de forma colaborativa e organizada.
+
+4b)
+A Internet é um instrumento para aumentar a transparência e o acesso à informação e facilitar a participação dos cidadãos nas mudanças sociais, culturais, econômicas e políticas que
+melhorar a situação das comunidades.
+
+4c)
+Redes livres e comunitárias incentivam e colaboram para consolidar os processos
+empoderamento associativo e cooperativo das comunidades para um "outro mundo"
+possível. "
+
+4d)
+Visto desta maneira, torna-se vital e necessário conceber a Internet como um bem comum.
+
+5a)
+Redes livres, comunitárias e descentralizadas
+
+5b)
+Ao decidir nos conectar à Internet, estamos fazendo parte dela e podemos escolher como participar dessa rede global de redes.
+
+5c)
+Uma rede aberta, neutra e descentralizada é construída pelas comunidades através de acordos e consensos. Este processo colabora com a autonomia, sustentabilidade e funcionamento da rede livre e comunitária.
+Ao mesmo tempo, capacita as comunidades a projetar a estrutura e o funcionamento de sua própria rede, respeitando as identidades e necessidades locais.
+Redes livres e comunitárias permitem aprender e saber como a rede trabalha para tomar decisões sobre ela e não se subordinar às regras do comércio ou a critérios impostos que, na maioria dos casos, estão em conflito com os interesses das comunidades.
+O uso e a compreensão das tecnologias promovem o acesso inclusivo e consciente aos recursos digitais, facilitando o treinamento, o aprendizado, o compartilhamento de conhecimento, a criação de mídia local, a participação do cidadão e a economia social e regional.
+
+6a)
+Redes livres, comunitárias e descentralizadas
+
+6b)
+Uso livre
+Neutralidade
+Interconexão livre
+Trânsito livre
+
+6c)
+Propriedade coletivamente
+Gestão social
+Design acessível
+Participação aberta
+
+6d)
+Distribuído
+Escalável
+Baixo custo
+
+7a)
+As redes comunitárias têm suas próprias características que as definem como tal e que constituem seus pontos fortes:
+
+7b)
+Propriedade coletiva
+Isso significa que sua infraestrutura (antenas, roteadores, cabeamento, etc.) é de propriedade de todos os membros da rede e da comunidade que os implementa. Não há proprietários únicos, nem privados nem mais importantes.
+Gestão social
+Isso significa que a rede é gerenciada e gerenciada pelos mesmos membros da rede. Não há uma pessoa para enviar, mas decisões são tomadas entre todos.
+Design acessível
+Informações sobre como a rede e seus componentes funcionam é pública e acessível, para que todos
+pode conhecer e aprender, também replicar e espalhar.
+Participação aberta
+Isso significa que qualquer pessoa pode participar ou ampliar a rede, respeitando seu design, seus princípios e sua forma de organização.
+
+7c)
+Uma rede gratuita e comunitária não é um serviço gratuito ou de baixo custo
+conectar-se com a Internet
+É um grupo de pessoas organizadas trabalhando para garantir o direito à comunicação de suas comunidades.
+
+8a)
+E para uma comunidade ser uma rede livre, ela precisa cumprir essas outras quatro características que lhe dão essa identidade:
+
+8b)
+Uso livre
+O trânsito irrestrito deve poder receber e oferecer qualquer tipo de serviços e conteúdos, desde que isso não afete o funcionamento adequado da rede. Ou seja, o fluxo de dados pela rede não está condicionado.
+Neutralidade
+Essa característica significa que o tráfego de dados é gerenciado de maneira igual, sem discriminação de acordo com o conteúdo, plataforma, aplicação ou tipo de equipamento utilizado para acesso. Os fluxos de dados dentro da rede não são arbitrariamente hierarquizados ou modificados.
+Interconexão livre
+Refere-se a garantir a interconexão entre as redes, com o fluxo de dados livre, neutro e livre nos dois sentidos, reciprocamente.
+Trânsito livre
+Duas redes que mantêm um contrato de tráfego livre não apenas permitem o tráfego de dados entre elas, mas também o tráfego destinado a outras redes com as quais possuem acordos semelhantes. Os dados podem então percorrer uma rede livre para alcançar outra, expandindo o alcance dessa "rede de redes livres".
+
+9)
+Esta ilustração mostra dois tipos de contratos de interconexão:
+- A rede de redes comunitárias tem um contrato livre entre si e livre interconexão, respeitando a neutralidade. Graças a esses contratos, a rede 1 pode se comunicar com a rede 3 através da rede 2 sem limitações.
+- Redes 2 e 3 têm um serviço comercial para se conectar com o resto da Internet, através de uma relação contratual que não é entre pares, mas fornecedor-consumidor. Esse provedor não compartilha nenhum aspecto da implantação e configuração de sua rede com seus clientes.
+
+10a)
+Implantar essas redes livres e comunitárias usando uma topologia de malha permite o desenvolvimento das características acima mencionadas com maior naturalidade, enquanto sua característica básica é a descentralização.
+Neste tipo de redes de malha, cada nó sem fio (roteador e antena) é conectado a um ou vários nós vizinhos. Assim, o caminho pelo qual os dados transitam muda automaticamente quando um dos nós pára de andar por algum motivo. Ao mesmo tempo, não é mais necessário ter pontos de acesso centrais. Por esse motivo, as redes mesh são redes descentralizadas e distribuídas.
+
+10b)
+Um NODE é formado pela antena, o roteador e o software que permite conectividade.
+
+11-A)Esse projeto de rede distribuída é mais econômico graças ao fato de não precisar de concentradores ou nós caros. A rede cresce nó por nó, aumentando progressivamente e dosando os custos de implantação e manutenção.
+
+11b)
+Quando dizemos que queremos construir redes livres, comunitárias e descentralizadas, nos referimos a construir coletivamente o nosso pedaço de Internet para sermos mais livres
+e comunidade.
+
+12a)
+Projeto LibreRouter: uma comunidade para sua rede
+
+12b)
+Por um longo tempo, redes comunitárias e livres foram construídas com o trabalho colaborativo de programadores e hackers. Juntos, eles desenvolveram software livre e modificaram o hardware disponível, fornecendo respostas às necessidades específicas das redes.
+Uma dessas conquistas foi mudar o software proprietário que alguns roteadores domésticos comerciais
+Eles vieram da fábrica.
+Isso permitiu que os roteadores fossem utilizados em todo o seu potencial, possibilitando funções que os fabricantes limitavam seguindo sua lógica de mercado. Esta contribuição minou enormemente a implantação de
+redes abertas, livres, neutras e descentralizadas.
+Em agosto de 2016, um regulamento promovido pela agência estatal americana FCC (Federal Communication Commission) levou os fabricantes a bloquear a substituição do software.
+que é instalado e pré-configurado da fábrica.
+Esse fato deixou claro que as redes comunitárias eram reféns de decisões arbitrárias sobre as quais tinham pouca ou nenhuma capacidade de decisão e ação.
+
+13-A)
+O projeto LibreRouter inclui o desenvolvimento de hardware, software e documentação focados nas necessidades das áreas excluídas digitalmente do sul do mundo.
+Algumas características notáveis ​​são:
+
+13b)
+Hardware
+O roteador e suas antenas estão contidos em caixas de plástico resistentes ao clima.
+A placa possui diferentes conectores disponíveis para adaptar o nó a usos específicos. Por exemplo, um módulo GPS.
+O design do hardware está disponível para quem quiser estudá-lo, modificá-lo e reproduzi-lo, já que é um hardware livre.
+O LibreRouter vem pronto para uso com o LibreMesh pré-instalado.
+
+14a)
+Software
+Os aplicativos e programas são projetados como parte de um processo no qual pessoas sem conhecimento sobre redes podem aprender a configurar, mapear, monitorar e diagnosticar a rede rapidamente.
+Simplifique a expansão de redes. Novos nós são autoconfigurados com informações obtidas de pré-existentes.
+Todo o software desenvolvido pela AlterMundi tem uma licença livre, qualquer um pode usá-lo e adaptá-lo às suas necessidades.
+
+14b)
+Documentação
+Nossa documentação acompanha tanto o uso do LibreRouter quanto os aplicativos e programas desenvolvidos.
+Em nosso site docs.altermundi.net você pode encontrar toda a nossa documentação em formato gráfico e
+audiovisual e em vários idiomas.
+Todos podem usar nosso conteúdo livremente, reproduzir, modificar, traduzir e compartilhar.
+
+15a)
+Uma rede na sua comunidade
+
+15b)
+Por meio de nossa documentação, compartilhamos uma maneira possível de nos organizarmos para iniciar esse caminho de construção de uma rede de Internet gratuita e comunitária em suas comunidades.
+É um processo cíclico e contínuo de pessoas ajudando-se mutuamente a realizar a organização e os objetivos do trabalho.
+
+15c)
+Planejamento
+Implantação
+Manutenção
+
+15d)
+Estes ciclos de trabalho e organização orientam a implantação e manutenção da rede e continuam através da história e desenvolvimento da mesma, fortalecendo-a e transformando-a. Esses ciclos contribuem para a construção da rede como espaço de encontro e identidade coletiva.
+
+16)
+Existe um projeto de rede comunitária?
+Conte conosco
+Nós gostaríamos de acompanhá-lo!
+info@altermundi.net
+Mais informações e documentação
+blog.altermundi.net
+docs.altermundi.net
+freerouter.org
