@@ -11,10 +11,7 @@ El material de este cuadernillo propone un ejercicio de Mapeo Participativo para
 Los mapas participativos ayudan a la comunidad “a graficar visualmente cómo perciben su territorio y el entorno socioambiental con el objeto de hacer propuestas de planificación y desarrollo local desde la realidad inmediata”
 
 3d)
-De esta manera, el mapa se convierte en una herramienta
-para hacer hablar y dar voz a las comunidades. Contribuye
-al diagnóstico de una situación para poder transformarla
-desde el autogobierno y la autogestión de recursos.
+De esta manera, el mapa se convierte en una herramienta para hacer hablar y dar voz a las comunidades. Contribuye al diagnóstico de una situación para poder transformarla desde el autogobierno y la autogestión de recursos.
 
 3e)
 Este ejercicio consta de dos etapas:
@@ -29,29 +26,22 @@ con información de cada lugar específico donde se montarán los nodos LibreRou
 2° Construir un Mapa Colectivo
 
 3i)
-una actividad colaborativa que relaciona la información de todos los crquis y la plasma en un mapa del territorio.
+una actividad colaborativa que relaciona la información de todos los croquis y la plasma en un mapa del territorio.
 
 4a)
 El croquis individual
 
 4b)
-En esta etapa cada miembro de la red debe recopilar información
-detallada del lugar donde emplazará su nodo
-LibreRouter.
+En esta etapa cada miembro de la red debe recopilar información detallada del lugar donde emplazará su nodo LibreRouter.
 
 4c)
-Consiste en un croquis de la vivienda o edificación con su entorno
-a corta y mediana distancia, con los datos relevantes
-para definir la estructura en malla de la red comunitaria.
+Consiste en un croquis de la vivienda o edificación con su entorno a corta y mediana distancia, con los datos relevantes para definir la estructura en malla de la red comunitaria.
 
 4d)
-Es útil escribir anotaciones garantizando un análisis completo
-y claro de la zona, lo que también ayuda a registrar detalles
-que luego podrían ser olvidados.
+Es útil escribir anotaciones garantizando un análisis completo y claro de la zona, lo que también ayuda a registrar detalles que luego podrían ser olvidados.
 
 4e)
-Incluir los siguientes datos colabora para identificar cada
-lugar y relacionarlo con el resto de los croquis:
+Incluir los siguientes datos colabora para identificar cada lugar y relacionarlo con el resto de los croquis:
 
 4f)
 Título. Por ejemplo: “Croquis Escuela Primaria”
@@ -66,45 +56,34 @@ Fecha
 Medio de contacto (teléfono, e-mail, dirección)
 
 5a)
-Desde el lugar donde se colocorá el nodo LibreRouter
-identificar las posibles ubicaciones. Destacar las que permiten
-mayores alternativas de enlaces con otros nodos.
+Desde el lugar donde se colocorá el nodo LibreRouter identificar las posibles ubicaciones. Destacar las que permiten mayores alternativas de enlaces con otros nodos.
 
 5b)
-Recordar que los nodos que se enlazan entre
-sí necesitan línea de vista despejada.
+Recordar que los nodos que se enlazan entre sí necesitan línea de vista despejada.
 
 5c)
-Para realizar los pasos anteriores, hay que
-mirar desde la posición y alturas aproximadas
-de las antenas LibreRouter.
+Para realizar los pasos anteriores, hay que mirar desde la posición y alturas aproximadas de las antenas LibreRouter.
 
 5d)
-¿A qué paredes o estructuras puede sujetarse el nodo?.
+¿A qué paredes o estructuras puede sujetarse el nodo?
 
 5e)
 ¿Qué lugares se ven desde cada uno de estos puntos?
 
 5f)
-¿Hay energía de red o se necesita energía alternativa?.
+¿Hay energía de red o se necesita energía alternativa?
 
 5g)
-¿Se puede conectar allí un servidor local o un servicio de
-conexión con el resto de Internet?.
+¿Se puede conectar allí un servidor local o un servicio de conexión con el resto de Internet?
 
 5h)
-Las conexiones cableadas entre dos equipos pueden ser
-de hasta 100 metros. ¿Hay vecinos que puedan sumarse
-a la red conectados por cable?.
+Las conexiones cableadas entre dos equipos pueden ser de hasta 100 metros. ¿Hay vecinos que puedan sumarse a la red conectados por cable?
 
 5i)
-¿Qué otros lugares relevantes se visualizan a menos de
-dos kilómetros?
+¿Qué otros lugares relevantes se visualizan a menos de dos kilómetros?
 
 5j)
-¿Hay obstáculos que se puedan sortear para tener línea
-de vista con otro punto de la red? Por ejemplo, elevando
-la antena unos metros o podando un árbol.
+¿Hay obstáculos que se puedan sortear para tener línea de vista con otro punto de la red? Por ejemplo, elevando la antena unos metros o podando un árbol.
 
 6a)
 Croquis de Daniela Graciana - dgraciana@ejemplo.com
@@ -158,7 +137,7 @@ Sur, Oeste, Norte, Este
 Ejemplo 1
 
 7a)
-Oeste, Norte, Este, Sur
+Sur, Oeste, Norte, Este
 
 7b)
 Centro Comercial
@@ -203,43 +182,25 @@ Ejemplo 2
 El mapa colectivo
 
 8b)
-Es una actividad de trabajo grupal, participativa y colaborativa
-durante la cual se diseña la estructura de red, se definen
-gran parte de las tareas y se planifica su ejecución.
+Es una actividad de trabajo grupal, participativa y colaborativa durante la cual se diseña la estructura de red, se definen gran parte de las tareas y se planifica su ejecución.
 
 8c)
-Por la complejidad de la actividad, es necesario planificarla
-y guiarla. Se debe resolver una fecha que garantice la participación
-y un lugar de encuentro apropiado para el desarrollo
-de la jornada. Mientras más vecinos asistan más completo
-será el análisis y el mapa resultante.
+Por la complejidad de la actividad, es necesario planificarla y guiarla. Se debe resolver una fecha que garantice la participación y un lugar de encuentro apropiado para el desarrollo de la jornada. Mientras más vecinos asistan más completo será el análisis y el mapa resultante.
 
 8d)
-Es importante preparar
-los materiales
-necesarios.
-A continuación,
-detallamos los más
-comunes:
+Es importante preparar los materiales necesarios. A continuación, detallamos los más comunes:
 
 8e)
-Croquis individuales de los miembros de la red.
-Algunos vecinos pueden tener dificultades a la hora de
-completar sus croquis. Recomendamos, en esos casos,
-ofrecer colaboración para garantizar que estén hechos al
-momento del mapeo colectivo.
+Croquis individuales de los miembros de la red. Algunos vecinos pueden tener dificultades a la hora de completar sus croquis. Recomendamos, en esos casos, ofrecer colaboración para garantizar que estén hechos al momento del mapeo colectivo.
 
 8f)
-Artículos de librería como papel, lápices, marcadores, tijeras,
-pegamento, regla, hilos, chinches, alfileres...
+Artículos de librería como papel, lápices, marcadores, tijeras, pegamento, regla, hilos, chinches, alfileres...
 
 8g)
-Láminas transparentes, si se quiere trabajar en capas
-superpuestas sobre el mapa base.
+Láminas transparentes, si se quiere trabajar en capas superpuestas sobre el mapa base.
 
 9a)
-Mapa Base de la región sobre el cual se agrega la información.
-Puede ser una impresión de gran tamaño de:
+Mapa Base de la región sobre el cual se agrega la información. Puede ser una impresión de gran tamaño de:
 
 9b)
 un plano
@@ -251,15 +212,10 @@ un mapa satelital
 un dibujo hecho a mano
 
 10a)
-Mapas topográficos impresos en papel o digitales. Son útiles
-para consultar elevaciones del terreno entre dos puntos
-en zonas de sierras y montañas.
+Mapas topográficos impresos en papel o digitales. Son útiles para consultar elevaciones del terreno entre dos puntos en zonas de sierras y montañas.
 
 10b)
-Iconos para representar los elementos que se desean destacar.
-Son ilustraciones sencillas y de clara interpretación. Se
-pueden dibujar o imprimir y recortar para pegar en el mapa
-base. Estos son algunos ejemplos.
+Iconos para representar los elementos que se desean destacar. Son ilustraciones sencillas y de clara interpretación. Se pueden dibujar o imprimir y recortar para pegar en el mapa base. Estos son algunos ejemplos.
 
 11a)
 Casa
@@ -307,20 +263,16 @@ Torre
 Con todo esto preparado... manos a la obra!
 
 12a)
-El primer paso consiste en ubicar sobre el mapa los elementos
-destacados durante los debates que sugerimos en
-el material de ”Planificación de una Red Libre y Comunitaria”.
+El primer paso consiste en ubicar sobre el mapa los elementos destacados durante los debates que sugerimos en el material de ”Planificación de una Red Libre y Comunitaria”.
 
 12b)
-También se agrega la información extraída de los croquis
-que han acercado los miembros del proyecto.
+También se agrega la información extraída de los croquis que han acercado los miembros del proyecto.
 
 12c)
 Considerar como básicos los siguientes datos:
 
 12d)
-Título. Un ejemplo: “Red comunitaria y libre de Internet
-de Barrio El Brujo”.
+Título. Un ejemplo: “Red comunitaria y libre de Internet de Barrio El Brujo”.
 
 12e)
 Orientación, reconociendo el norte geográfico.
@@ -332,30 +284,22 @@ Fecha
 Geografía destacable del lugar
 
 12h)
-Nodos preexistentes y planificados. Se puede diferenciar
-entre nodos confirmados y aún sin confirmación.
+Nodos preexistentes y planificados. Se puede diferenciar entre nodos confirmados y aún sin confirmación.
 
 12i)
-Espacios abiertos a los que se pretende dar
-cobertura.
+Espacios abiertos a los que se pretende dar cobertura.
 
 13a)
-A medida que se va armando el mapa se empieza a vislumbrar
-la estructura en malla de la red.
+A medida que se va armando el mapa se empieza a vislumbrar la estructura en malla de la red.
 
 13b)
-El objetivo es diseñar una red balanceada y distribuida,
-evitando nodos que se vuelvan demasiado centrales o
-conexiones que dependen de varios nodos intermedios.
+El objetivo es diseñar una red balanceada y distribuida, evitando nodos que se vuelvan demasiado centrales o conexiones que dependen de varios nodos intermedios.
 
 13c)
-En las conexiones WiFi, recomendamos marcar sólo las líneas
-que ayudan a orientar las antenas durante el montaje.
+En las conexiones WiFi, recomendamos marcar sólo las líneas que ayudan a orientar las antenas durante el montaje.
 
 13d)
-¿Qué caminos posibles puede tener un punto para
-estar conectado a la red? ¿cómo rodear los obstáculos
-naturales y/o artificiales existentes?
+¿Qué caminos posibles puede tener un punto para estar conectado a la red? ¿cómo rodear los obstáculos naturales y/o artificiales existentes?
 
 13e)
 ¿Qué conexiones serán WiFi? ¿Cuáles cableadas?
@@ -364,28 +308,19 @@ naturales y/o artificiales existentes?
 ¿Cuáles serán los segmentos de la red más exigidos?
 
 13g)
-¿Se detectan inconvenientes para mantener uno o
-más nodos continuamente activos?
+¿Se detectan inconvenientes para mantener uno o más nodos continuamente activos?
 
 13h)
-¿Qué persona o institución conviene invitar a la red
-por su relevancia en la estructura de la misma?
+¿Qué persona o institución conviene invitar a la red por su relevancia en la estructura de la misma?
 
 13i)
-Lo interesante de estas redes es su capacidad de potenciar
-la comunicación y el desarrollo de la comunidad. El proyecto
-se enriquece cuando la red brinda servicios y contenidos
-alojados localmente, accesibles independientemente de la
-conexión con Internet.
+Lo interesante de estas redes es su capacidad de potenciar la comunicación y el desarrollo de la comunidad. El proyecto se enriquece cuando la red brinda servicios y contenidos alojados localmente, accesibles independientemente de la conexión con Internet.
 
 13j)
-¿Dónde conviene poner servidores locales o enlaces
-con Internet?
+¿Dónde conviene poner servidores locales o enlaces con Internet?
 
 13k)
-¿Se puede invitar a personas e instituciones que surgieron
-como socialmente importantes durante el debate
-previo?
+¿Se puede invitar a personas e instituciones que surgieron como socialmente importantes durante el debate previo?
 
 14a)
 Red Comunitaria Los Algarrobos
@@ -397,15 +332,10 @@ Marzo 2018
 ¡Manos a las pinzas!
 
 16b)
-El mapa colectivo acerca un primer diseño de red. La puesta
-en común y la interpretación del mapa permite definir tareas
-a corto y mediano plazo, nuevas ideas y soluciones.
+El mapa colectivo acerca un primer diseño de red. La puesta en común y la interpretación del mapa permite definir tareas a corto y mediano plazo, nuevas ideas y soluciones.
 
 16c)
-Recomendamos guardar registro de estas ideas para seguirlas
-en el tiempo. Es ideal aprovechar el entusiasmo y coordinar
-jornadas de trabajo para concretar el despliegue de la
-red comunitaria.
+Recomendamos guardar registro de estas ideas para seguirlas en el tiempo. Es ideal aprovechar el entusiasmo y coordinar jornadas de trabajo para concretar el despliegue de la red comunitaria.
 
 16d)
 Logros
@@ -444,45 +374,34 @@ Más nodos
 Mejorar estabilidad en nodos claves
 
 17a)
-Mientras más actividades se realicen en grupo o con ayuda
-entre vecinos, mejor será el sentido de responsabilidad y
-pertenencia.
+Mientras más actividades se realicen en grupo o con ayuda entre vecinos, mejor será el sentido de responsabilidad y pertenencia.
 
 17b)
-Esto los acercará al objetivo rector de tener una red comunitaria;
-una red digital pero también humana, de personas
-que se conocen y colaboran mutuamente.
+Esto los acercará al objetivo rector de tener una red comunitaria; una red digital pero también humana, de personas que se conocen y colaboran mutuamente.
 
 18a)
 Resultados esperados
 
 18b)
-Una vez terminado el mapeo, los miembros de la red se
-habrán acercado a los siguientes logros:
+Una vez terminado el mapeo, los miembros de la red se habrán acercado a los siguientes logros:
 
 18c)
 Compartir una visión de propósito y dirección
 
 18d)
-Detectar ventajas y oportunidades, ayudando en la
-toma de decisiones
+Detectar ventajas y oportunidades, ayudando en la toma de decisiones
 
 18e)
-Entender las necesidades del presente y del futuro
-cercano de la red
+Entender las necesidades del presente y del futuro cercano de la red
 
 18f)
-Reconocer el propio territorio, adaptando los objetivos
-de la comunidad a las particularidades de la
-región
+Reconocer el propio territorio, adaptando los objetivos de la comunidad a las particularidades de la región
 
 18g)
-Distribuir más eficientemente los recursos y tareas
-previstas
+Distribuir más eficientemente los recursos y tareas previstas
 
 18h)
-Fomentar las relaciones interpersonales entre los
-miembros de la red y con otras personas de la comunidad
+Fomentar las relaciones interpersonales entre los miembros de la red y con otras personas de la comunidad
 
 18i)
 Construir un resumen gráfico del proyecto

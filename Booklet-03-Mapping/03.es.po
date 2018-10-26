@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-24 15:08-0500\n"
+"POT-Creation-Date: 2018-10-26 10:27-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,932 +41,907 @@ msgid ""
 "propuestas de planificación y desarrollo local desde la realidad inmediata”"
 msgstr ""
 
-#: 03.es.txt:18
+#: 03.es.txt:15
 msgid ""
 "3d)\n"
-"De esta manera, el mapa se convierte en una herramienta\n"
-"para hacer hablar y dar voz a las comunidades. Contribuye\n"
-"al diagnóstico de una situación para poder transformarla\n"
-"desde el autogobierno y la autogestión de recursos."
+"De esta manera, el mapa se convierte en una herramienta para hacer hablar y "
+"dar voz a las comunidades. Contribuye al diagnóstico de una situación para "
+"poder transformarla desde el autogobierno y la autogestión de recursos."
 msgstr ""
 
-#: 03.es.txt:21
+#: 03.es.txt:18
 msgid ""
 "3e)\n"
 "Este ejercicio consta de dos etapas:"
 msgstr ""
 
-#: 03.es.txt:24
+#: 03.es.txt:21
 msgid ""
 "3f)\n"
 "1° Dibujar un Croquis Individual"
 msgstr ""
 
-#: 03.es.txt:27
+#: 03.es.txt:24
 msgid ""
 "3g)\n"
 "con información de cada lugar específico donde se montarán los nodos "
 "LibreRouter."
 msgstr ""
 
-#: 03.es.txt:30
+#: 03.es.txt:27
 msgid ""
 "3h)\n"
 "2° Construir un Mapa Colectivo"
 msgstr ""
 
-#: 03.es.txt:33
+#: 03.es.txt:30
 msgid ""
 "3i)\n"
-"una actividad colaborativa que relaciona la información de todos los crquis "
+"una actividad colaborativa que relaciona la información de todos los croquis "
 "y la plasma en un mapa del territorio."
 msgstr ""
 
-#: 03.es.txt:36
+#: 03.es.txt:33
 msgid ""
 "4a)\n"
 "El croquis individual"
 msgstr ""
 
-#: 03.es.txt:41
+#: 03.es.txt:36
 msgid ""
 "4b)\n"
-"En esta etapa cada miembro de la red debe recopilar información\n"
-"detallada del lugar donde emplazará su nodo\n"
-"LibreRouter."
+"En esta etapa cada miembro de la red debe recopilar información detallada "
+"del lugar donde emplazará su nodo LibreRouter."
 msgstr ""
 
-#: 03.es.txt:46
+#: 03.es.txt:39
 msgid ""
 "4c)\n"
-"Consiste en un croquis de la vivienda o edificación con su entorno\n"
-"a corta y mediana distancia, con los datos relevantes\n"
-"para definir la estructura en malla de la red comunitaria."
+"Consiste en un croquis de la vivienda o edificación con su entorno a corta y "
+"mediana distancia, con los datos relevantes para definir la estructura en "
+"malla de la red comunitaria."
 msgstr ""
 
-#: 03.es.txt:51
+#: 03.es.txt:42
 msgid ""
 "4d)\n"
-"Es útil escribir anotaciones garantizando un análisis completo\n"
-"y claro de la zona, lo que también ayuda a registrar detalles\n"
-"que luego podrían ser olvidados."
+"Es útil escribir anotaciones garantizando un análisis completo y claro de la "
+"zona, lo que también ayuda a registrar detalles que luego podrían ser "
+"olvidados."
 msgstr ""
 
-#: 03.es.txt:55
+#: 03.es.txt:45
 msgid ""
 "4e)\n"
-"Incluir los siguientes datos colabora para identificar cada\n"
-"lugar y relacionarlo con el resto de los croquis:"
+"Incluir los siguientes datos colabora para identificar cada lugar y "
+"relacionarlo con el resto de los croquis:"
 msgstr ""
 
-#: 03.es.txt:58
+#: 03.es.txt:48
 msgid ""
 "4f)\n"
 "Título. Por ejemplo: “Croquis Escuela Primaria”"
 msgstr ""
 
-#: 03.es.txt:61
+#: 03.es.txt:51
 msgid ""
 "4g)\n"
 "Orientación. Podría ser marcando el norte"
 msgstr ""
 
-#: 03.es.txt:64
+#: 03.es.txt:54
 msgid ""
 "4h)\n"
 "Fecha"
 msgstr ""
 
-#: 03.es.txt:67
+#: 03.es.txt:57
 msgid ""
 "4i)\n"
 "Medio de contacto (teléfono, e-mail, dirección)"
 msgstr ""
 
-#: 03.es.txt:72
+#: 03.es.txt:60
 msgid ""
 "5a)\n"
-"Desde el lugar donde se colocorá el nodo LibreRouter\n"
-"identificar las posibles ubicaciones. Destacar las que permiten\n"
-"mayores alternativas de enlaces con otros nodos."
+"Desde el lugar donde se colocorá el nodo LibreRouter identificar las "
+"posibles ubicaciones. Destacar las que permiten mayores alternativas de "
+"enlaces con otros nodos."
 msgstr ""
 
-#: 03.es.txt:76
+#: 03.es.txt:63
 msgid ""
 "5b)\n"
-"Recordar que los nodos que se enlazan entre\n"
-"sí necesitan línea de vista despejada."
+"Recordar que los nodos que se enlazan entre sí necesitan línea de vista "
+"despejada."
 msgstr ""
 
-#: 03.es.txt:81
+#: 03.es.txt:66
 msgid ""
 "5c)\n"
-"Para realizar los pasos anteriores, hay que\n"
-"mirar desde la posición y alturas aproximadas\n"
-"de las antenas LibreRouter."
+"Para realizar los pasos anteriores, hay que mirar desde la posición y "
+"alturas aproximadas de las antenas LibreRouter."
 msgstr ""
 
-#: 03.es.txt:84
+#: 03.es.txt:69
 msgid ""
 "5d)\n"
-"¿A qué paredes o estructuras puede sujetarse el nodo?."
+"¿A qué paredes o estructuras puede sujetarse el nodo?"
 msgstr ""
 
-#: 03.es.txt:87
+#: 03.es.txt:72
 msgid ""
 "5e)\n"
 "¿Qué lugares se ven desde cada uno de estos puntos?"
 msgstr ""
 
-#: 03.es.txt:90
+#: 03.es.txt:75
 msgid ""
 "5f)\n"
-"¿Hay energía de red o se necesita energía alternativa?."
+"¿Hay energía de red o se necesita energía alternativa?"
 msgstr ""
 
-#: 03.es.txt:94
+#: 03.es.txt:78
 msgid ""
 "5g)\n"
-"¿Se puede conectar allí un servidor local o un servicio de\n"
-"conexión con el resto de Internet?."
+"¿Se puede conectar allí un servidor local o un servicio de conexión con el "
+"resto de Internet?"
 msgstr ""
 
-#: 03.es.txt:99
+#: 03.es.txt:81
 msgid ""
 "5h)\n"
-"Las conexiones cableadas entre dos equipos pueden ser\n"
-"de hasta 100 metros. ¿Hay vecinos que puedan sumarse\n"
-"a la red conectados por cable?."
+"Las conexiones cableadas entre dos equipos pueden ser de hasta 100 metros. ¿"
+"Hay vecinos que puedan sumarse a la red conectados por cable?"
 msgstr ""
 
-#: 03.es.txt:103
+#: 03.es.txt:84
 msgid ""
 "5i)\n"
-"¿Qué otros lugares relevantes se visualizan a menos de\n"
-"dos kilómetros?"
+"¿Qué otros lugares relevantes se visualizan a menos de dos kilómetros?"
 msgstr ""
 
-#: 03.es.txt:108
+#: 03.es.txt:87
 msgid ""
 "5j)\n"
-"¿Hay obstáculos que se puedan sortear para tener línea\n"
-"de vista con otro punto de la red? Por ejemplo, elevando\n"
-"la antena unos metros o podando un árbol."
+"¿Hay obstáculos que se puedan sortear para tener línea de vista con otro "
+"punto de la red? Por ejemplo, elevando la antena unos metros o podando un "
+"árbol."
 msgstr ""
 
-#: 03.es.txt:111
+#: 03.es.txt:90
 msgid ""
 "6a)\n"
 "Croquis de Daniela Graciana - dgraciana@ejemplo.com"
 msgstr ""
 
-#: 03.es.txt:114
+#: 03.es.txt:93
 msgid ""
 "6b)\n"
 "El bosque es 3 o 4m más alto que mi casa. Para ver lo de Lalo hay que poner "
 "el nodo más alto."
 msgstr ""
 
-#: 03.es.txt:117
+#: 03.es.txt:96
 msgid ""
 "6c)\n"
 "A menos de 1500m veo las casas de: Beatriz Doren, Lelis Catanzo, Juan Lozano."
 msgstr ""
 
-#: 03.es.txt:120
+#: 03.es.txt:99
 msgid ""
 "6d)\n"
 "Centro cultural"
 msgstr ""
 
-#: 03.es.txt:123
+#: 03.es.txt:102
 msgid ""
 "6e)\n"
 "Bosque del Moro"
 msgstr ""
 
-#: 03.es.txt:126
+#: 03.es.txt:105
 msgid ""
 "6f)\n"
 "Paredes donde se podría poner el nodo: pared al sur; paredes del tanque de "
 "agua."
 msgstr ""
 
-#: 03.es.txt:129
+#: 03.es.txt:108
 msgid ""
 "6g)\n"
 "Arboleada alta"
 msgstr ""
 
-#: 03.es.txt:132
+#: 03.es.txt:111
 msgid ""
 "6h)\n"
 "Mi suegra"
 msgstr ""
 
-#: 03.es.txt:135
+#: 03.es.txt:114
 msgid ""
 "6i)\n"
 "Calle El Espinal"
 msgstr ""
 
-#: 03.es.txt:138
+#: 03.es.txt:117
 msgid ""
 "6j)\n"
 "80 metros"
 msgstr ""
 
-#: 03.es.txt:141
+#: 03.es.txt:120
 msgid ""
 "6k)\n"
 "1200 metros"
 msgstr ""
 
-#: 03.es.txt:144
+#: 03.es.txt:123
 msgid ""
 "6l)\n"
 "Tendido de energía eléctrica"
 msgstr ""
 
-#: 03.es.txt:147
+#: 03.es.txt:126
 msgid ""
 "6m)\n"
 "a 1500 metros"
 msgstr ""
 
-#: 03.es.txt:150
+#: 03.es.txt:129
 msgid ""
 "6n)\n"
 "Escuela"
 msgstr ""
 
-#: 03.es.txt:153
+#: 03.es.txt:132
 msgid ""
 "6o)\n"
 "Tiene conexión con Internet paga"
 msgstr ""
 
-#: 03.es.txt:156
+#: 03.es.txt:135
 msgid ""
 "6p)\n"
 "Sur, Oeste, Norte, Este"
 msgstr ""
 
-#: 03.es.txt:159
+#: 03.es.txt:138
 msgid ""
 "6q)\n"
 "Ejemplo 1"
 msgstr ""
 
-#: 03.es.txt:162
+#: 03.es.txt:141
 msgid ""
 "7a)\n"
-"Oeste, Norte, Este, Sur"
+"Sur, Oeste, Norte, Este"
 msgstr ""
 
-#: 03.es.txt:165
+#: 03.es.txt:144
 msgid ""
 "7b)\n"
 "Centro Comercial"
 msgstr ""
 
-#: 03.es.txt:168
+#: 03.es.txt:147
 msgid ""
 "7c)\n"
 "Desde mi techo se ven: panadería; casa de Pancho; despensa Agustín"
 msgstr ""
 
-#: 03.es.txt:171
+#: 03.es.txt:150
 msgid ""
 "7d)\n"
 "Cuartito"
 msgstr ""
 
-#: 03.es.txt:174
+#: 03.es.txt:153
 msgid ""
 "7e)\n"
 "Mi casa"
 msgstr ""
 
-#: 03.es.txt:177
+#: 03.es.txt:156
 msgid ""
 "7f)\n"
 "Líneas de vista directa"
 msgstr ""
 
-#: 03.es.txt:180
+#: 03.es.txt:159
 msgid ""
 "7g)\n"
 "Lomadas"
 msgstr ""
 
-#: 03.es.txt:183
+#: 03.es.txt:162
 msgid ""
 "7h)\n"
 "Elevación del terreno, 115 metros aproximadamente"
 msgstr ""
 
-#: 03.es.txt:186
+#: 03.es.txt:165
 msgid ""
 "7i)\n"
 "Barrio Maldonado"
 msgstr ""
 
-#: 03.es.txt:189
+#: 03.es.txt:168
 msgid ""
 "7j)\n"
 "Desde el tanque se ve: escuela; centro comunitario; varias viviendas"
 msgstr ""
 
-#: 03.es.txt:192
+#: 03.es.txt:171
 msgid ""
 "7k)\n"
 "Tanque de agua de la cooperativa"
 msgstr ""
 
-#: 03.es.txt:195
+#: 03.es.txt:174
 msgid ""
 "7l)\n"
 "Casa Ana-Daniel -- Agosto 2017"
 msgstr ""
 
-#: 03.es.txt:198
+#: 03.es.txt:177
 msgid ""
 "7m)\n"
 "anadaniel@ejemplo.com"
 msgstr ""
 
-#: 03.es.txt:201
+#: 03.es.txt:180
 msgid ""
 "7n)\n"
 "Ejemplo 2"
 msgstr ""
 
-#: 03.es.txt:204
+#: 03.es.txt:183
 msgid ""
 "8a)\n"
 "El mapa colectivo"
 msgstr ""
 
-#: 03.es.txt:209
+#: 03.es.txt:186
 msgid ""
 "8b)\n"
-"Es una actividad de trabajo grupal, participativa y colaborativa\n"
-"durante la cual se diseña la estructura de red, se definen\n"
-"gran parte de las tareas y se planifica su ejecución."
+"Es una actividad de trabajo grupal, participativa y colaborativa durante la "
+"cual se diseña la estructura de red, se definen gran parte de las tareas y "
+"se planifica su ejecución."
 msgstr ""
 
-#: 03.es.txt:216
+#: 03.es.txt:189
 msgid ""
 "8c)\n"
-"Por la complejidad de la actividad, es necesario planificarla\n"
-"y guiarla. Se debe resolver una fecha que garantice la participación\n"
-"y un lugar de encuentro apropiado para el desarrollo\n"
-"de la jornada. Mientras más vecinos asistan más completo\n"
-"será el análisis y el mapa resultante."
+"Por la complejidad de la actividad, es necesario planificarla y guiarla. Se "
+"debe resolver una fecha que garantice la participación y un lugar de "
+"encuentro apropiado para el desarrollo de la jornada. Mientras más vecinos "
+"asistan más completo será el análisis y el mapa resultante."
 msgstr ""
 
-#: 03.es.txt:224
+#: 03.es.txt:192
 msgid ""
 "8d)\n"
-"Es importante preparar\n"
-"los materiales\n"
-"necesarios.\n"
-"A continuación,\n"
-"detallamos los más\n"
-"comunes:"
+"Es importante preparar los materiales necesarios. A continuación, detallamos "
+"los más comunes:"
 msgstr ""
 
-#: 03.es.txt:231
+#: 03.es.txt:195
 msgid ""
 "8e)\n"
-"Croquis individuales de los miembros de la red.\n"
-"Algunos vecinos pueden tener dificultades a la hora de\n"
-"completar sus croquis. Recomendamos, en esos casos,\n"
-"ofrecer colaboración para garantizar que estén hechos al\n"
-"momento del mapeo colectivo."
+"Croquis individuales de los miembros de la red. Algunos vecinos pueden tener "
+"dificultades a la hora de completar sus croquis. Recomendamos, en esos "
+"casos, ofrecer colaboración para garantizar que estén hechos al momento del "
+"mapeo colectivo."
 msgstr ""
 
-#: 03.es.txt:235
+#: 03.es.txt:198
 msgid ""
 "8f)\n"
-"Artículos de librería como papel, lápices, marcadores, tijeras,\n"
-"pegamento, regla, hilos, chinches, alfileres..."
+"Artículos de librería como papel, lápices, marcadores, tijeras, pegamento, "
+"regla, hilos, chinches, alfileres..."
 msgstr ""
 
-#: 03.es.txt:239
+#: 03.es.txt:201
 msgid ""
 "8g)\n"
-"Láminas transparentes, si se quiere trabajar en capas\n"
-"superpuestas sobre el mapa base."
+"Láminas transparentes, si se quiere trabajar en capas superpuestas sobre el "
+"mapa base."
 msgstr ""
 
-#: 03.es.txt:243
+#: 03.es.txt:204
 msgid ""
 "9a)\n"
-"Mapa Base de la región sobre el cual se agrega la información.\n"
-"Puede ser una impresión de gran tamaño de:"
+"Mapa Base de la región sobre el cual se agrega la información. Puede ser una "
+"impresión de gran tamaño de:"
 msgstr ""
 
-#: 03.es.txt:246
+#: 03.es.txt:207
 msgid ""
 "9b)\n"
 "un plano"
 msgstr ""
 
-#: 03.es.txt:249
+#: 03.es.txt:210
 msgid ""
 "9c)\n"
 "un mapa satelital"
 msgstr ""
 
-#: 03.es.txt:252
+#: 03.es.txt:213
 msgid ""
 "9d)\n"
 "un dibujo hecho a mano"
 msgstr ""
 
-#: 03.es.txt:257
+#: 03.es.txt:216
 msgid ""
 "10a)\n"
-"Mapas topográficos impresos en papel o digitales. Son útiles\n"
-"para consultar elevaciones del terreno entre dos puntos\n"
-"en zonas de sierras y montañas."
+"Mapas topográficos impresos en papel o digitales. Son útiles para consultar "
+"elevaciones del terreno entre dos puntos en zonas de sierras y montañas."
 msgstr ""
 
-#: 03.es.txt:263
+#: 03.es.txt:219
 msgid ""
 "10b)\n"
-"Iconos para representar los elementos que se desean destacar.\n"
-"Son ilustraciones sencillas y de clara interpretación. Se\n"
-"pueden dibujar o imprimir y recortar para pegar en el mapa\n"
-"base. Estos son algunos ejemplos."
+"Iconos para representar los elementos que se desean destacar. Son "
+"ilustraciones sencillas y de clara interpretación. Se pueden dibujar o "
+"imprimir y recortar para pegar en el mapa base. Estos son algunos ejemplos."
 msgstr ""
 
-#: 03.es.txt:266
+#: 03.es.txt:222
 msgid ""
 "11a)\n"
 "Casa"
 msgstr ""
 
-#: 03.es.txt:269
+#: 03.es.txt:225
 msgid ""
 "11b)\n"
 "Escuela"
 msgstr ""
 
-#: 03.es.txt:272
+#: 03.es.txt:228
 msgid ""
 "11c)\n"
 "Biblioteca"
 msgstr ""
 
-#: 03.es.txt:275
+#: 03.es.txt:231
 msgid ""
 "11d)\n"
 "Bosque - Árboles"
 msgstr ""
 
-#: 03.es.txt:278
+#: 03.es.txt:234
 msgid ""
 "11e)\n"
 "Parada de transporte"
 msgstr ""
 
-#: 03.es.txt:281
+#: 03.es.txt:237
 msgid ""
 "11f)\n"
 "Cancha"
 msgstr ""
 
-#: 03.es.txt:284
+#: 03.es.txt:240
 msgid ""
 "11g)\n"
 "Curso de Agua"
 msgstr ""
 
-#: 03.es.txt:287
+#: 03.es.txt:243
 msgid ""
 "11h)\n"
 "Edificios"
 msgstr ""
 
-#: 03.es.txt:290
+#: 03.es.txt:246
 msgid ""
 "11i)\n"
 "Poste de alumbrado público"
 msgstr ""
 
-#: 03.es.txt:293
+#: 03.es.txt:249
 msgid ""
 "11j)\n"
 "Molino"
 msgstr ""
 
-#: 03.es.txt:296
+#: 03.es.txt:252
 msgid ""
 "11k)\n"
 "Montañas"
 msgstr ""
 
-#: 03.es.txt:299
+#: 03.es.txt:255
 msgid ""
 "11l)\n"
 "Plaza - Parque"
 msgstr ""
 
-#: 03.es.txt:302
+#: 03.es.txt:258
 msgid ""
 "11m)\n"
 "Radio Local"
 msgstr ""
 
-#: 03.es.txt:305
+#: 03.es.txt:261
 msgid ""
 "11n)\n"
 "Torre"
 msgstr ""
 
-#: 03.es.txt:308
+#: 03.es.txt:264
 msgid ""
 "11o)\n"
 "Con todo esto preparado... manos a la obra!"
 msgstr ""
 
-#: 03.es.txt:313
+#: 03.es.txt:267
 msgid ""
 "12a)\n"
-"El primer paso consiste en ubicar sobre el mapa los elementos\n"
-"destacados durante los debates que sugerimos en\n"
-"el material de ”Planificación de una Red Libre y Comunitaria”."
+"El primer paso consiste en ubicar sobre el mapa los elementos destacados "
+"durante los debates que sugerimos en el material de ”Planificación de una "
+"Red Libre y Comunitaria”."
 msgstr ""
 
-#: 03.es.txt:317
+#: 03.es.txt:270
 msgid ""
 "12b)\n"
-"También se agrega la información extraída de los croquis\n"
-"que han acercado los miembros del proyecto."
+"También se agrega la información extraída de los croquis que han acercado "
+"los miembros del proyecto."
 msgstr ""
 
-#: 03.es.txt:320
+#: 03.es.txt:273
 msgid ""
 "12c)\n"
 "Considerar como básicos los siguientes datos:"
 msgstr ""
 
-#: 03.es.txt:324
+#: 03.es.txt:276
 msgid ""
 "12d)\n"
-"Título. Un ejemplo: “Red comunitaria y libre de Internet\n"
-"de Barrio El Brujo”."
+"Título. Un ejemplo: “Red comunitaria y libre de Internet de Barrio El Brujo”."
 msgstr ""
 
-#: 03.es.txt:327
+#: 03.es.txt:279
 msgid ""
 "12e)\n"
 "Orientación, reconociendo el norte geográfico."
 msgstr ""
 
-#: 03.es.txt:330
+#: 03.es.txt:282
 msgid ""
 "12f)\n"
 "Fecha"
 msgstr ""
 
-#: 03.es.txt:333
+#: 03.es.txt:285
 msgid ""
 "12g)\n"
 "Geografía destacable del lugar"
 msgstr ""
 
-#: 03.es.txt:337
+#: 03.es.txt:288
 msgid ""
 "12h)\n"
-"Nodos preexistentes y planificados. Se puede diferenciar\n"
-"entre nodos confirmados y aún sin confirmación."
+"Nodos preexistentes y planificados. Se puede diferenciar entre nodos "
+"confirmados y aún sin confirmación."
 msgstr ""
 
-#: 03.es.txt:341
+#: 03.es.txt:291
 msgid ""
 "12i)\n"
-"Espacios abiertos a los que se pretende dar\n"
-"cobertura."
+"Espacios abiertos a los que se pretende dar cobertura."
 msgstr ""
 
-#: 03.es.txt:345
+#: 03.es.txt:294
 msgid ""
 "13a)\n"
-"A medida que se va armando el mapa se empieza a vislumbrar\n"
-"la estructura en malla de la red."
+"A medida que se va armando el mapa se empieza a vislumbrar la estructura en "
+"malla de la red."
 msgstr ""
 
-#: 03.es.txt:350
+#: 03.es.txt:297
 msgid ""
 "13b)\n"
-"El objetivo es diseñar una red balanceada y distribuida,\n"
-"evitando nodos que se vuelvan demasiado centrales o\n"
-"conexiones que dependen de varios nodos intermedios."
+"El objetivo es diseñar una red balanceada y distribuida, evitando nodos que "
+"se vuelvan demasiado centrales o conexiones que dependen de varios nodos "
+"intermedios."
 msgstr ""
 
-#: 03.es.txt:354
+#: 03.es.txt:300
 msgid ""
 "13c)\n"
-"En las conexiones WiFi, recomendamos marcar sólo las líneas\n"
-"que ayudan a orientar las antenas durante el montaje."
+"En las conexiones WiFi, recomendamos marcar sólo las líneas que ayudan a "
+"orientar las antenas durante el montaje."
 msgstr ""
 
-#: 03.es.txt:359
+#: 03.es.txt:303
 msgid ""
 "13d)\n"
-"¿Qué caminos posibles puede tener un punto para\n"
-"estar conectado a la red? ¿cómo rodear los obstáculos\n"
-"naturales y/o artificiales existentes?"
+"¿Qué caminos posibles puede tener un punto para estar conectado a la red? ¿"
+"cómo rodear los obstáculos naturales y/o artificiales existentes?"
 msgstr ""
 
-#: 03.es.txt:362
+#: 03.es.txt:306
 msgid ""
 "13e)\n"
 "¿Qué conexiones serán WiFi? ¿Cuáles cableadas?"
 msgstr ""
 
-#: 03.es.txt:365
+#: 03.es.txt:309
 msgid ""
 "13f)\n"
 "¿Cuáles serán los segmentos de la red más exigidos?"
 msgstr ""
 
-#: 03.es.txt:369
+#: 03.es.txt:312
 msgid ""
 "13g)\n"
-"¿Se detectan inconvenientes para mantener uno o\n"
-"más nodos continuamente activos?"
+"¿Se detectan inconvenientes para mantener uno o más nodos continuamente "
+"activos?"
 msgstr ""
 
-#: 03.es.txt:373
+#: 03.es.txt:315
 msgid ""
 "13h)\n"
-"¿Qué persona o institución conviene invitar a la red\n"
-"por su relevancia en la estructura de la misma?"
+"¿Qué persona o institución conviene invitar a la red por su relevancia en la "
+"estructura de la misma?"
 msgstr ""
 
-#: 03.es.txt:380
+#: 03.es.txt:318
 msgid ""
 "13i)\n"
-"Lo interesante de estas redes es su capacidad de potenciar\n"
-"la comunicación y el desarrollo de la comunidad. El proyecto\n"
-"se enriquece cuando la red brinda servicios y contenidos\n"
-"alojados localmente, accesibles independientemente de la\n"
-"conexión con Internet."
+"Lo interesante de estas redes es su capacidad de potenciar la comunicación y "
+"el desarrollo de la comunidad. El proyecto se enriquece cuando la red brinda "
+"servicios y contenidos alojados localmente, accesibles independientemente de "
+"la conexión con Internet."
 msgstr ""
 
-#: 03.es.txt:384
+#: 03.es.txt:321
 msgid ""
 "13j)\n"
-"¿Dónde conviene poner servidores locales o enlaces\n"
-"con Internet?"
+"¿Dónde conviene poner servidores locales o enlaces con Internet?"
 msgstr ""
 
-#: 03.es.txt:389
+#: 03.es.txt:324
 msgid ""
 "13k)\n"
-"¿Se puede invitar a personas e instituciones que surgieron\n"
-"como socialmente importantes durante el debate\n"
-"previo?"
+"¿Se puede invitar a personas e instituciones que surgieron como socialmente "
+"importantes durante el debate previo?"
 msgstr ""
 
-#: 03.es.txt:392
+#: 03.es.txt:327
 msgid ""
 "14a)\n"
 "Red Comunitaria Los Algarrobos"
 msgstr ""
 
-#: 03.es.txt:395
+#: 03.es.txt:330
 msgid ""
 "14b)\n"
 "Marzo 2018"
 msgstr ""
 
-#: 03.es.txt:398
+#: 03.es.txt:333
 msgid ""
 "16a)\n"
 "¡Manos a las pinzas!"
 msgstr ""
 
-#: 03.es.txt:403
+#: 03.es.txt:336
 msgid ""
 "16b)\n"
-"El mapa colectivo acerca un primer diseño de red. La puesta\n"
-"en común y la interpretación del mapa permite definir tareas\n"
-"a corto y mediano plazo, nuevas ideas y soluciones."
+"El mapa colectivo acerca un primer diseño de red. La puesta en común y la "
+"interpretación del mapa permite definir tareas a corto y mediano plazo, "
+"nuevas ideas y soluciones."
 msgstr ""
 
-#: 03.es.txt:409
+#: 03.es.txt:339
 msgid ""
 "16c)\n"
-"Recomendamos guardar registro de estas ideas para seguirlas\n"
-"en el tiempo. Es ideal aprovechar el entusiasmo y coordinar\n"
-"jornadas de trabajo para concretar el despliegue de la\n"
-"red comunitaria."
+"Recomendamos guardar registro de estas ideas para seguirlas en el tiempo. Es "
+"ideal aprovechar el entusiasmo y coordinar jornadas de trabajo para "
+"concretar el despliegue de la red comunitaria."
 msgstr ""
 
-#: 03.es.txt:412
+#: 03.es.txt:342
 msgid ""
 "16d)\n"
 "Logros"
 msgstr ""
 
-#: 03.es.txt:415
+#: 03.es.txt:345
 msgid ""
 "16e)\n"
 "Crece la red 60%"
 msgstr ""
 
-#: 03.es.txt:418
+#: 03.es.txt:348
 msgid ""
 "16f)\n"
 "Doble camino entre Luis y María"
 msgstr ""
 
-#: 03.es.txt:421
+#: 03.es.txt:351
 msgid ""
 "16g)\n"
 "Doble camino entre biblioteca y escuela"
 msgstr ""
 
-#: 03.es.txt:424
+#: 03.es.txt:354
 msgid ""
 "16h)\n"
 "Mejor enlace con Internet"
 msgstr ""
 
-#: 03.es.txt:427
+#: 03.es.txt:357
 msgid ""
 "16i)\n"
 "Cobertura en espacios públicos"
 msgstr ""
 
-#: 03.es.txt:430
+#: 03.es.txt:360
 msgid ""
 "16j)\n"
 "Parada de transporte"
 msgstr ""
 
-#: 03.es.txt:433
+#: 03.es.txt:363
 msgid ""
 "16k)\n"
 "Desafíos"
 msgstr ""
 
-#: 03.es.txt:436
+#: 03.es.txt:366
 msgid ""
 "16l)\n"
 "Resolver red interna de la escuela"
 msgstr ""
 
-#: 03.es.txt:439
+#: 03.es.txt:369
 msgid ""
 "16m)\n"
 "Servidor local en la biblioteca"
 msgstr ""
 
-#: 03.es.txt:442
+#: 03.es.txt:372
 msgid ""
 "16n)\n"
 "Más nodos"
 msgstr ""
 
-#: 03.es.txt:445
+#: 03.es.txt:375
 msgid ""
 "16o)\n"
 "Mejorar estabilidad en nodos claves"
 msgstr ""
 
-#: 03.es.txt:450
+#: 03.es.txt:378
 msgid ""
 "17a)\n"
-"Mientras más actividades se realicen en grupo o con ayuda\n"
-"entre vecinos, mejor será el sentido de responsabilidad y\n"
-"pertenencia."
+"Mientras más actividades se realicen en grupo o con ayuda entre vecinos, "
+"mejor será el sentido de responsabilidad y pertenencia."
 msgstr ""
 
-#: 03.es.txt:455
+#: 03.es.txt:381
 msgid ""
 "17b)\n"
-"Esto los acercará al objetivo rector de tener una red comunitaria;\n"
-"una red digital pero también humana, de personas\n"
-"que se conocen y colaboran mutuamente."
+"Esto los acercará al objetivo rector de tener una red comunitaria; una red "
+"digital pero también humana, de personas que se conocen y colaboran "
+"mutuamente."
 msgstr ""
 
-#: 03.es.txt:458
+#: 03.es.txt:384
 msgid ""
 "18a)\n"
 "Resultados esperados"
 msgstr ""
 
-#: 03.es.txt:462
+#: 03.es.txt:387
 msgid ""
 "18b)\n"
-"Una vez terminado el mapeo, los miembros de la red se\n"
-"habrán acercado a los siguientes logros:"
+"Una vez terminado el mapeo, los miembros de la red se habrán acercado a los "
+"siguientes logros:"
 msgstr ""
 
-#: 03.es.txt:465
+#: 03.es.txt:390
 msgid ""
 "18c)\n"
 "Compartir una visión de propósito y dirección"
 msgstr ""
 
-#: 03.es.txt:469
+#: 03.es.txt:393
 msgid ""
 "18d)\n"
-"Detectar ventajas y oportunidades, ayudando en la\n"
-"toma de decisiones"
+"Detectar ventajas y oportunidades, ayudando en la toma de decisiones"
 msgstr ""
 
-#: 03.es.txt:473
+#: 03.es.txt:396
 msgid ""
 "18e)\n"
-"Entender las necesidades del presente y del futuro\n"
-"cercano de la red"
+"Entender las necesidades del presente y del futuro cercano de la red"
 msgstr ""
 
-#: 03.es.txt:478
+#: 03.es.txt:399
 msgid ""
 "18f)\n"
-"Reconocer el propio territorio, adaptando los objetivos\n"
-"de la comunidad a las particularidades de la\n"
-"región"
+"Reconocer el propio territorio, adaptando los objetivos de la comunidad a "
+"las particularidades de la región"
 msgstr ""
 
-#: 03.es.txt:482
+#: 03.es.txt:402
 msgid ""
 "18g)\n"
-"Distribuir más eficientemente los recursos y tareas\n"
-"previstas"
+"Distribuir más eficientemente los recursos y tareas previstas"
 msgstr ""
 
-#: 03.es.txt:486
+#: 03.es.txt:405
 msgid ""
 "18h)\n"
-"Fomentar las relaciones interpersonales entre los\n"
-"miembros de la red y con otras personas de la comunidad"
+"Fomentar las relaciones interpersonales entre los miembros de la red y con "
+"otras personas de la comunidad"
 msgstr ""
 
-#: 03.es.txt:489
+#: 03.es.txt:408
 msgid ""
 "18i)\n"
 "Construir un resumen gráfico del proyecto"
 msgstr ""
 
-#: 03.es.txt:492
+#: 03.es.txt:411
 msgid ""
 "20a)\n"
 "¿Tienes un proyecto de red comunitaria?"
 msgstr ""
 
-#: 03.es.txt:495
+#: 03.es.txt:414
 msgid ""
 "20b)\n"
 "Cuenten con nosotros."
 msgstr ""
 
-#: 03.es.txt:498
+#: 03.es.txt:417
 msgid ""
 "20c)\n"
 "¡Nos encantaría acompañarlos!"
 msgstr ""
 
-#: 03.es.txt:501
+#: 03.es.txt:420
 msgid ""
 "20d)\n"
 "info@altermundi.net"
 msgstr ""
 
-#: 03.es.txt:504
+#: 03.es.txt:423
 msgid ""
 "20e)\n"
 "Más información y documentación"
 msgstr ""
 
-#: 03.es.txt:507
+#: 03.es.txt:426
 msgid ""
 "20f)\n"
 "blog.altermundi.net"
 msgstr ""
 
-#: 03.es.txt:510
+#: 03.es.txt:429
 msgid ""
 "20g)\n"
 "docs.altermundi.net"
 msgstr ""
 
-#: 03.es.txt:513
+#: 03.es.txt:432
 msgid ""
 "20h)\n"
 "librerouter.org"
 msgstr ""
 
-#: 03.es.txt:515
+#: 03.es.txt:434
 msgid ""
 "20i)\n"
 "Edición Febrero 2018"
