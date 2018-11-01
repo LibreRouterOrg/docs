@@ -1,0 +1,173 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>LibreMesh</h1>
+					<h3>Firmware automagico para redes comunitarias (tambien) inalambricas nerd-free</h3> 
+					<p>
+						<a href="mailto:iochesonome@gmail.com">Ilario</a>, Guifipedro, y Al
+					</p>
+				</section>
+				<section>
+					<h2>Redes Mesh</h2>
+					<img src=img/network_types_simplified.png width="80%">
+				</section>
+				<section>
+					<h2>Nivel fisico</h2>
+					<ul>
+						<li>Wifi (barato y sencillo)</li>
+						<li>Cable y fibra (costoso)</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Dimension de la red</h2>
+					<ul>
+						<li>Pequeña: mi casa</li>
+						<li>Enorme: una region, e.g. Guifi.net</br> Cada nodo esta` conectado con muchos nodos.</li>
+					</ul>
+
+				</section>
+				<section>
+					<h2>Routeo</h2>
+					Los paquetes tienen muchas posibles rutas!</br>
+					<img src=img/routing2.png style="background-color:white;" width="55%"></br>
+					Cada nodo tiene que ser inteligente.</br>
+					<img src=img/routing3.png style="background-color:white;" width="55%">
+				</section>
+				<section>
+					<h2>Hardware: LibreRouter.org</h2>
+					El router perfecto para redes mesh no existia...</br>
+					Lo vamos a fabricar! (o sea, lo va a fabricar <a href=http://www.dragino.com>Dragino</a>)
+					<img src=img/librerouter.png style="background-color:white;">
+					<ul>
+						<li> dos radios wiki de 5 GHz, para antenas direccionales o sectoriales, conexiones entre nodos</li>
+						<li> una antena omnidireccional wifi de 2.4 GHz para access point, acceso clientes</li>
+						<li> suportado por driver 100% open (creo)</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Hardware: Routeres comerciales</h2>
+					Muchos routeres que ya tenemos pueden ser liberados!
+					<img src=img/freeing_routers.png style="background-color:white;">
+				</section>
+				<section>
+					<h2>OpenWrt es expandible</h2>
+					Hay gestor de paquetes y se le puede instalar de todo:
+					<ul>
+						<li>Asterisk</li>
+						<li>Mailman</li>
+						<li>Python</li>
+						<li>ffmpeg</li>
+						<li>...</li>
+						<li>LibreMesh!!</li>
+					</ul>
+				</section>
+				<section>
+					<h2>LibreMesh: modulos</h2>
+					<ul>
+						<li><i>lime-system</i> - conexion layer 1 (AP, client, adhoc, IEEE802.11s), roaming y autoconfiguracion</li>
+						<li><i>lime-proto-batadv</i> - BATMAN adv, routeo de layer 2</li>
+						<li><i>lime-proto-bmx6</i> - BMX6, routeo de layer 3</li>
+						<li><i>dnsmasq-lease-share</i> - compartir la tabla de leases para evitar collisiones</li>
+						<li><i>bmx6-auto-gw-mode</i> - compartir acceso internet</li>
+						<li><i>lime-app</i> - nueva interfaz web</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Muchos mas modulos para suportar cada tipo de red</h2>
+					<ul>
+						<li><i>lime-hwd-usbradio</i> - soporte para radios USB</li>
+						<li><i>lime-proto-babeld</i> - BABELd, routeo layer 3</li>
+						<li><i>lime-proto-olsr2</i> - OLSR2, routeo layer 3</li>
+						<li><i>lime-proto-bgp</i> - BGP, conexion inter redes</li>
+						<li><i>pitbull</i> - splash page o captive portal</li>
+						<li><i>tinc</i> - soporte para VPN</li>
+					</ul>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+
+<!-- Taken from https://stackoverflow.com/questions/34706859/set-header-and-footer-reveal-js-presentation -->
+<style type="text/css">
+    /* 1. Style header/footer <div> so they are positioned as desired. */
+    #header-left {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+    }
+    #header-right {
+        position: absolute;
+        top: 0%;
+        right: 0%;
+    }
+    #footer-left {
+        position: absolute;
+        bottom: 0%;
+        left: 0%;
+    }
+</style>
+
+<!-- 2. Create hidden header/footer <div> -->
+<div id="hidden" style="display:none;">
+    <div id="header">
+        <div id="header-right">ES-HM 2018</div>
+        <div id="footer-left">Web: libremesh.org, Code: github.com/libremesh, ML: lists.libremesh.org</div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script type="text/javascript">
+    // 3. On Reveal.js ready event, copy header/footer <div> into each `.slide-background` <div>
+    var header = $('#header').html();
+    if ( window.location.search.match( /print-pdf/gi ) ) {
+        Reveal.addEventListener( 'ready', function( event ) {
+            $('.slide-background').append(header);
+        });
+    }
+    else {
+        $('div.reveal').append(header);
+   }
+</script>
+
+	</body>
+</html>
