@@ -88,24 +88,38 @@
 				<section>
 					<h2>LibreMesh: modulos</h2>
 					<ul>
-						<li><i>lime-system</i> - conexion layer 1 (AP, client, adhoc, IEEE802.11s), roaming y autoconfiguracion</li>
-						<li><i>lime-proto-batadv</i> - BATMAN adv, routeo de layer 2</li>
-						<li><i>lime-proto-bmx6</i> - BMX6, routeo de layer 3</li>
-						<li><i>dnsmasq-lease-share</i> - compartir la tabla de leases para evitar collisiones</li>
-						<li><i>bmx6-auto-gw-mode</i> - compartir acceso internet</li>
-						<li><i>lime-app</i> - nueva interfaz web</li>
+						<li><i>lime-system</i> -- conexion layer 1: <b>AP + IEEE802.11s</b>, roaming y autoconfiguracion</li>
+						<li><i>lime-proto-batadv</i> -- BATMAN adv, routeo de layer 2</li>
+						<li><i>lime-proto-bmx6</i> -- BMX6, routeo de layer 3</li>
+						<li><i>dnsmasq-lease-share</i> -- compartir la tabla de leases para evitar collisiones DHCP</li>
+						<li><i>bmx6-auto-gw-mode</i> -- compartir acceso internet</li>
+						<li><i>lime-app</i> -- nueva interfaz web</li>
 					</ul>
 				</section>
 				<section>
 					<h2>Muchos mas modulos para suportar cada tipo de red</h2>
 					<ul>
-						<li><i>lime-hwd-usbradio</i> - soporte para radios USB</li>
-						<li><i>lime-proto-babeld</i> - BABELd, routeo layer 3</li>
-						<li><i>lime-proto-olsr2</i> - OLSR2, routeo layer 3</li>
-						<li><i>lime-proto-bgp</i> - BGP, conexion inter redes</li>
-						<li><i>pitbull</i> - splash page o captive portal</li>
-						<li><i>tinc</i> - soporte para VPN</li>
+						<li><i>lime-hwd-usbradio</i> -- soporte para radios USB</li>
+						<li><i>lime-proto-babeld</i> -- BABELd, routeo layer 3</li>
+						<li><i>lime-proto-olsr2</i> -- OLSR2, routeo layer 3</li>
+						<li><i>lime-proto-bgp</i> -- BGP, conexion inter redes</li>
+						<li><i>pitbull</i> -- splash page o captive portal</li>
+						<li><i>tinc</i> -- soporte para VPN</li>
 					</ul>
+				</section>
+				<section>
+					<h2>Un perfil por cada comunidad</h2>
+					Cada comunidad puede subir su configuracion al repository <a href=https://github.com/libremesh/network-profiles>network-profiles</a></br>
+					Actualmente 30 comunidades
+				</section>
+				<section>
+					<h2>Compilar con Chef </br>o con LiMe-SDK</h2>
+					<a href=https://chef.libremesh.org>Chef</a> es una interfaz web para obtener el firmware de cada comunidad.</br>
+					Usuarios advanzados pueden descargar el <a href=https://github.com/libremesh/lime-sdk>LiMe-SDK</a>.
+				</section>
+				<section>
+					<h2>Ejemplo: HM-IT 2017</h2>
+					<img src=img/lime-hackit2017-nomac.png>
 				</section>
 			</div>
 		</div>
@@ -130,20 +144,15 @@
 <!-- Taken from https://stackoverflow.com/questions/34706859/set-header-and-footer-reveal-js-presentation -->
 <style type="text/css">
     /* 1. Style header/footer <div> so they are positioned as desired. */
-    #header-left {
-        position: absolute;
-        top: 0%;
-        left: 0%;
-    }
     #header-right {
         position: absolute;
-        top: 0%;
-        right: 0%;
+        top: 1%;
+        right: 1%;
     }
     #footer-left {
         position: absolute;
-        bottom: 0%;
-        left: 0%;
+        bottom: 1%;
+        left: 1%;
     }
 </style>
 
