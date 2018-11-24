@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 """
 This script will extract strings from a Scribus-ng file.
 Strings are usually in the form of PAGEOBJECT/StoryText/ITEXT
@@ -61,11 +61,11 @@ def apply_keyval(keys,
 
 
 def write_keyval(keyval, filename_out='example/example.json'):
-    fileout = open(filename_out, "w")
-    fileout.write(json.dumps({
-        "en": {k: v for k, v in ids}
-    }, ensure_ascii=False, indent=2, sort_keys=True).encode('utf8'))
-    fileout.close()
+    with io.open(filename_out, "w", encoding='utf-8') as fileout:
+        outmsg = json.dumps({
+            "en": {k: v for k, v in ids}
+        }, ensure_ascii=False, indent=2, sort_keys=True)
+        fileout.write(outmsg)
 
 
 parser = argparse.ArgumentParser(
