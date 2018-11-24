@@ -1,0 +1,11 @@
+language: c
+
+services:
+  - docker
+
+before_script:
+  - docker pull nicopace/sla-to-translatewiki-json
+  - docker pull nicopace/sla-to-pdf
+
+script:
+  - ./.travis-run.sh
