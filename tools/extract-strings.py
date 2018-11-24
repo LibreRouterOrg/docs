@@ -36,12 +36,6 @@ def extract_keyval(node):
         texts = extract_texts(node)
         _, strings = zip(*texts)
         return [node.attrib["ANNAME"], '\n'.join(strings)]
-        # for text in texts:
-        #     id = ".//pageobject[@anname='%s']/storytext/itext[%02d]" % (
-        #         node.attrib["ANNAME"],
-        #         text[0] + 1  # index starts at 1
-        #     )
-        #     keyvals.append([id, text[1]])
     return keyvals
 
 
@@ -62,10 +56,6 @@ def apply_keyval(keys,
             textnode = etree.Element("ITEXT")
             textnode.set('CH', line)
             node.insert(1, textnode)
-        # trail = etree.Element("trail")
-        # trail.set("ALIGN", "1")
-        # trail.set("PARENT", "cuerpo")
-        # node.append(trail)
 
     tree.write(filename_out, xml_declaration=True)
 
