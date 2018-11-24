@@ -11,11 +11,10 @@ Also, it will receive the same format and be able to apply it
 to the original file.
 """
 
+import io
 import json
 import argparse
-import itertools
 import xml.etree.ElementTree as etree
-from pprint import pprint
 
 
 def extract_translate_paragraphs(filename='example/example.sla'):
@@ -35,12 +34,14 @@ def extract_keyval(node):
     keyvals = []
     if "ANNAME" in node.attrib:
         texts = extract_texts(node)
-        for text in texts:
-            id = ".//PAGEOBJECT[@ANNAME='%s']/StoryText/ITEXT[%02d]" % (
-                node.attrib["ANNAME"],
-                text[0] + 1  # index starts at 1
-            )
-            keyvals.append([id, text[1]])
+        _, strings = zip(*texts)
+        return [node.attrib["ANNAME"], '\n'.join(strings)]
+        # for text in texts:
+        #     id = ".//pageobject[@anname='%s']/storytext/itext[%02d]" % (
+        #         node.attrib["ANNAME"],
+        #         text[0] + 1  # index starts at 1
+        #     )
+        #     keyvals.append([id, text[1]])
     return keyvals
 
 
@@ -50,10 +51,21 @@ def apply_keyval(keys,
     utf8_parser = etree.XMLParser(encoding='utf-8')
     tree = etree.parse(filename, parser=utf8_parser)
     for key, value in keys.iteritems():
-        node = tree.find(key)
-        pprint((key, value, node))
-        node.set('CH', value)
-        print(node.attrib['CH'])
+        node = tree.find(".//PAGEOBJECT[@ANNAME='%s']/StoryText" % key)
+        # remove childs
+        for child in list(node):
+            ltag = child.tag.lower()
+            if ltag in ['itext']:
+                node.remove(child)
+
+        for line in value.split("\n")[::-1]:
+            textnode = etree.Element("ITEXT")
+            textnode.set('CH', line)
+            node.insert(1, textnode)
+        # trail = etree.Element("trail")
+        # trail.set("ALIGN", "1")
+        # trail.set("PARENT", "cuerpo")
+        # node.append(trail)
 
     tree.write(filename_out, xml_declaration=True)
 
@@ -94,7 +106,7 @@ if action == 'export':
     file_in = options.scribus_filename
     file_out = options.output_filename
     paragraphs = extract_translate_paragraphs(file_in)
-    ids = list(itertools.chain.from_iterable(map(extract_keyval, paragraphs)))
+    ids = map(extract_keyval, paragraphs)
     write_keyval(ids, file_out)
 
 if action == 'merge':
@@ -102,7 +114,7 @@ if action == 'merge':
     json_in = options.json_filename
     file_out = options.output_filename
 
-    with open(json_in) as f:
+    with io.open(json_in, mode="r", encoding='utf-8') as f:
         keys = json.load(f)['en']
 
     apply_keyval(keys, file_in, file_out)
