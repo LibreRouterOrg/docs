@@ -12,6 +12,7 @@ to the original file.
 """
 
 import io
+import re
 import json
 import argparse
 import xml.etree.ElementTree as etree
@@ -20,7 +21,8 @@ import xml.etree.ElementTree as etree
 def extract_translate_paragraphs(filename='example/example.sla'):
     utf8_parser = etree.XMLParser(encoding='utf-8')
     tree = etree.parse(filename, parser=utf8_parser)
-    return tree.findall(".//PAGEOBJECT/StoryText/..")
+    return filter(lambda po: len(po.findall('StoryText/ITEXT', po)) > 0,
+                  tree.findall(".//PAGEOBJECT/StoryText/.."))
 
 
 def extract_texts(pageobject):
@@ -34,8 +36,9 @@ def extract_keyval(node):
     keyvals = []
     if "ANNAME" in node.attrib:
         texts = extract_texts(node)
-        _, strings = zip(*texts)
-        return [node.attrib["ANNAME"], '\n'.join(strings)]
+        if len(texts) > 0:
+            _, strings = zip(*texts)
+            return [node.attrib["ANNAME"], '\n'.join(strings)]
     return keyvals
 
 
@@ -60,6 +63,28 @@ def apply_keyval(keys,
     tree.write(filename_out, xml_declaration=True)
 
 
+def number_paragraphs(file_in):
+    used_numbers = set()
+    utf8_parser = etree.XMLParser(encoding='UTF-8')
+    tree = etree.parse(file_in, parser=utf8_parser)
+    for i, paragraph in enumerate(tree.findall(".//PAGEOBJECT/StoryText/..")):
+        if ("ANNAME" not in paragraph.attrib):
+            paragraph.set("ANNAME", "paragraph")
+        
+        current_index_search = re.findall('^\d+', paragraph.attrib["ANNAME"])
+        if (len(current_index_search) > 0):
+            used_numbers.add(int(current_index_search[0]))
+            continue  # Already has an index
+
+        paragraph_name = paragraph.attrib["ANNAME"]
+        while i in used_numbers:
+            i = i + 1
+        paragraph.set("ANNAME", ('%04d-' + paragraph_name) % i)
+        used_numbers.add(i)
+
+    tree.write(file_in, xml_declaration=True, encoding='UTF-8')
+
+
 def write_keyval(keyval, filename_out='example/example.json'):
     with io.open(filename_out, "w", encoding='utf-8') as fileout:
         outmsg = json.dumps({
@@ -71,6 +96,9 @@ def write_keyval(keyval, filename_out='example/example.json'):
 parser = argparse.ArgumentParser(
     description='Extracts and applies string replacements on Scribus-ng files.'
 )
+parser.add_argument('-n', action="append_const", const="number_paragraphs",
+                    dest="actions",
+                    help="Add numbers to paragraphs in SLA in-place.")
 parser.add_argument('-e', action="append_const", const="export",
                     dest="actions", help="Export to JSON file.")
 parser.add_argument('-m', action="store", dest="json_filename", type=str,
@@ -91,6 +119,10 @@ if (len(options.actions) != 1):
     exit(0)
 
 action = options.actions[0]
+
+if action == 'number_paragraphs':
+    file_in = options.scribus_filename
+    number_paragraphs(file_in)
 
 if action == 'export':
     file_in = options.scribus_filename
