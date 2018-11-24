@@ -1,3 +1,4 @@
+#!/usr/bin/python
 """
 This script will extract strings from a Scribus-ng file.
 Strings are usually in the form of PAGEOBJECT/StoryText/ITEXT
