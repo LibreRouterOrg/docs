@@ -40,6 +40,6 @@ git remote add httporigin https://${GH_TOKEN}@github.com/libremesh/lime-docs.git
 git stash
 git checkout master
 git stash apply
-git add docs/*/*.{pdf,json,sla}
+git add `find docs -name *.pdf` `find docs -name *.json` `find . -name *.sla`
 git commit -m 'Automated updates.'
 git push httporigin master
