@@ -47,7 +47,7 @@ def apply_keyval(keys,
                  filename_out='example/example_out.sla'):
     utf8_parser = etree.XMLParser(encoding='utf-8')
     tree = etree.parse(filename, parser=utf8_parser)
-    for key, value in keys.iteritems():
+    for key, value in keys.items():
         node = tree.find(".//PAGEOBJECT[@ANNAME='%s']/StoryText" % key)
         # remove childs
         for child in list(node):

@@ -28,11 +28,15 @@ do
             filename="${filename%.*}" # because it has two extensions
             origin_sla_filename=$filename.$MAIN_LANG.sla
             destiny_sla_filename=$filename.$language.sla
-            filedirname=`dirname $sla_file`
+            filedirname=`dirname $json_filename`
 
-            docker run -t --rm -v `pwd`:/work nicopace/sla-to-translatewiki-json /work/$filedirname/$origin_sla_filename -m /work/$json_filename -o /work/$filedirname/$destiny_sla_filename
-            docker run -t --rm -v `pwd`:/work nicopace/sla-to-pdf /work/$filedirname/$destiny_sla_filename
-            git status
+            docker run -t --rm -v `pwd`:/work nicopace/sla-to-translatewiki-json /work/$origin_sla_filename -m /work/$json_filename -o /work/$destiny_sla_filename
+            docker run -t --rm -v `pwd`:/work nicopace/sla-to-pdf /work/$destiny_sla_filename
         fi
     fi
 done
+
+git remote add httporigin https://${GH_TOKEN}@github.com/libremesh/lime-docs.git > /dev/null 2>&1
+git add docs/*/*.{pdf,json,sla}
+git commit -m 'Automated updates.'
+git push httporigin master

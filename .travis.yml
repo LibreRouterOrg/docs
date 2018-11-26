@@ -6,12 +6,7 @@ before_script:
 - docker pull nicopace/sla-to-pdf
 script:
 - "./.travis-run.sh"
-# deploy:
-#   provider: releases
-#   api_key:
-#     secure: VF2542kuP5Suy0Pqnj0f5V5V0c0PgHQem3HJKIqOgPB9jws1II9CpVNOw6JEqbvIohNCgJ+B1aP/ytBmgrEWV7LpJMIT0WkZlIyCR1iTUZzeiKQ+Fqr8nZSMLIgWBN8tFEssdSfAwsOxsTFuExJ06iibFRld1ZV4OLxxjkeP/pg=
-#   file_glob: true
-#   file: docs/*/*.pdf
-#   skip_cleanup: true
-#   on:
-#     repo: libremesh/lime-docs
+env:
+  global:
+  - secure: AUKhU19IEdMcwnx2GDuMlRUqvP1crgAUZLe/MmHKUpcnAcOZ09JXrMzjKUJWvAvNCkFOu0N73O4fLxff6JxVezRUu3Gpc1YNytCFWCK+RZcJ6UGxs/cNjMnVAji9BKDhiFup7WZwOqKY4+rnVdR2Cc5EpIqTLZX90XNXNLMZSMg=
+  - secure: EEaZAVYqkX9nqjUzFDdkLpaVCPAbXFuur69ATeD2nbYRk54CM123XhdAnOe1fl8hpBsRul5WqimclgGPNdAUR3ec0Zk+XrWw9PaBH878kqZypeCCqC/applBc85wfVolcxzIdmyWLgjew7LNUroS7iDdzswflGr2p/N5X8S3nu8=
