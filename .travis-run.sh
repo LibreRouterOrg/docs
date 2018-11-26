@@ -32,6 +32,7 @@ do
 
             docker run -t --rm -v `pwd`:/work nicopace/sla-to-translatewiki-json /work/$filedirname/$origin_sla_filename -m /work/$json_filename -o /work/$filedirname/$destiny_sla_filename
             docker run -t --rm -v `pwd`:/work nicopace/sla-to-pdf /work/$filedirname/$destiny_sla_filename
+            git status
         fi
     fi
 done
