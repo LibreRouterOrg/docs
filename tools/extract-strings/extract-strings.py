@@ -38,7 +38,7 @@ def extract_keyval(node):
         texts = extract_texts(node)
         if len(texts) > 0:
             _, strings = zip(*texts)
-            return [node.attrib["ANNAME"], '\n'.join(strings)]
+            return [node.attrib["ANNAME"], ' '.join(strings)]
     return keyvals
 
 
