@@ -1,11 +1,17 @@
 language: c
-
 services:
-  - docker
-
+- docker
 before_script:
-  - docker pull nicopace/sla-to-translatewiki-json
-  - docker pull nicopace/sla-to-pdf
-
+- docker pull nicopace/sla-to-translatewiki-json
+- docker pull nicopace/sla-to-pdf
 script:
-  - ./.travis-run.sh
+- "./.travis-run.sh"
+deploy:
+  provider: releases
+  api_key:
+    secure: VF2542kuP5Suy0Pqnj0f5V5V0c0PgHQem3HJKIqOgPB9jws1II9CpVNOw6JEqbvIohNCgJ+B1aP/ytBmgrEWV7LpJMIT0WkZlIyCR1iTUZzeiKQ+Fqr8nZSMLIgWBN8tFEssdSfAwsOxsTFuExJ06iibFRld1ZV4OLxxjkeP/pg=
+  file_glob: true
+  file: docs/*/*.pdf
+  skip_cleanup: true
+  on:
+    repo: libremesh/lime-docs
