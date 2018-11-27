@@ -26,11 +26,19 @@ do
 
         if [ "$MAIN_LANG" != "$language" ]; then
             filename="${filename%.*}" # because it has two extensions
-            origin_sla_filename=$filename.$MAIN_LANG.sla
             destiny_sla_filename=$filename.$language.sla
+            if [ ! -f $destiny_sla_filename ]; then
+                # First time doing it, copy resources file
+                cp $filename.$MAIN_LANG.sla $destiny_sla_filename
+
+                dest_dir=`dirname $filename`
+                cp -r $dest_dir/assets-$MAIN_LANG $dest_dir/assets-$language
+
+                sed -i "s/assets-$MAIN_LANG/assets-$language/" $destiny_sla_filename 
+            fi
             filedirname=`dirname $json_filename`
 
-            docker run -t --rm -v `pwd`:/work nicopace/sla-to-translatewiki-json /work/$origin_sla_filename -m /work/$json_filename -o /work/$destiny_sla_filename
+            docker run -t --rm -v `pwd`:/work nicopace/sla-to-translatewiki-json /work/$destiny_sla_filename -m /work/$json_filename -o /work/$destiny_sla_filename
             docker run -t --rm -v `pwd`:/work nicopace/sla-to-pdf /work/$destiny_sla_filename
         fi
     fi
@@ -40,6 +48,6 @@ git remote add httporigin https://${GH_TOKEN}@github.com/libremesh/lime-docs.git
 git stash
 git checkout master
 git stash apply
-git add `find docs -name *.pdf` `find docs -name *.json` `find . -name *.sla`
+git add .
 git commit -m 'Automated updates.'
 git push httporigin master
