@@ -16,7 +16,7 @@ done
 
 
 
-# If JSON change, merge SLA with JSON change and generate PDF and create Pull Request
+# If JSON change, merge SLA with JSON
 git diff-tree --no-commit-id --name-only -r HEAD | grep \.json$ | while read json_file
 do
     if [ -f $json_file ]; then
@@ -34,12 +34,25 @@ do
                 dest_dir=`dirname $filename`
                 cp -r $dest_dir/assets-$MAIN_LANG $dest_dir/assets-$language
 
-                sed -i "s/assets-$MAIN_LANG/assets-$language/" $destiny_sla_filename 
+                sed -i "s/assets-$MAIN_LANG/assets-$language/" $destiny_sla_filename
             fi
             filedirname=`dirname $json_filename`
 
             docker run -t --rm -v `pwd`:/work nicopace/sla-to-translatewiki-json /work/$destiny_sla_filename -m /work/$json_filename -o /work/$destiny_sla_filename
-            docker run -t --rm -v `pwd`:/work nicopace/sla-to-pdf /work/$destiny_sla_filename
+        fi
+    fi
+done
+
+# If SLA or Asset file or JSON change, generate PDF
+git diff-tree --no-commit-id --name-only -r HEAD | grep \.sla$ | while read sla_file # TODO implement '.sla$\|asset\|.json$' processing
+do
+    if [ -f $sla_file ]; then
+        filename="${sla_filename%.*}"
+        language="${filename##*.}"
+
+        if [ "$MAIN_LANG" != "$language" ]; then
+            filename="${filename%.*}" # because it has two extensions
+            docker run -t --rm -v `pwd`:/work nicopace/sla-to-pdf /work/$sla_file
         fi
     fi
 done
