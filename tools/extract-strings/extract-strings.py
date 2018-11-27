@@ -32,13 +32,19 @@ def extract_texts(pageobject):
     return [[i, n.attrib['CH']] for i, n in itextenumerate]
 
 
+def remove_duplicate_spaces(string):
+    import re
+    return re.sub(' +', ' ', string).strip()
+
+
 def extract_keyval(node):
     keyvals = []
     if "ANNAME" in node.attrib:
         texts = extract_texts(node)
         if len(texts) > 0:
             _, strings = zip(*texts)
-            return [node.attrib["ANNAME"], ' '.join(strings)]
+            return [node.attrib["ANNAME"],
+                    remove_duplicate_spaces(' '.join(strings))]
     return keyvals
 
 
@@ -70,7 +76,7 @@ def number_paragraphs(file_in):
     for i, paragraph in enumerate(tree.findall(".//PAGEOBJECT/StoryText/..")):
         if ("ANNAME" not in paragraph.attrib):
             paragraph.set("ANNAME", "paragraph")
-        
+
         current_index_search = re.findall('^\d+', paragraph.attrib["ANNAME"])
         if (len(current_index_search) > 0):
             used_numbers.add(int(current_index_search[0]))
