@@ -1,4 +1,4 @@
-Documentation of LibreMesh and related topics.
+Documentation of LibreRouter and related topics.
 
 For PDFs of the booklets, see http://docs.altermundi.net/.
 
