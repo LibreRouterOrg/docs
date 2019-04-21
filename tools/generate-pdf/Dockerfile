@@ -1,7 +1,7 @@
-FROM ubuntu:artful
+FROM ubuntu:bionic
 
 RUN apt-get update -y
-RUN apt-get install gnupg apt-transport-https ca-certificates python-software-properties software-properties-common -y
+RUN apt-get install gnupg apt-transport-https ca-certificates software-properties-common -y
 RUN add-apt-repository ppa:scribus/ppa
 RUN apt-get update && apt-get install -y --allow-unauthenticated scribus-ng xvfb locales locales-all && rm -rf /var/lib/apt/lists/*
 

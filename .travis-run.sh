@@ -57,7 +57,9 @@ do
     fi
 done
 
-git remote add httporigin https://${GH_TOKEN}@github.com/libremesh/lime-docs.git > /dev/null 2>&1
+env
+
+git remote add httporigin https://${GH_TOKEN}@github.com/librerouterorg/docs.git > /dev/null 2>&1
 git stash
 git checkout master
 git stash apply

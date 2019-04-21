@@ -18,3 +18,5 @@
 
 ## ignore .pdf just form the root dir (.pdf maybe sources in other subdirs)
 /*.pdf
+
+tools/import-pos/files/

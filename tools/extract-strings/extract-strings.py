@@ -12,6 +12,7 @@ to the original file.
 """
 
 import io
+import ntpath
 import re
 import json
 import argparse
@@ -93,8 +94,10 @@ def number_paragraphs(file_in):
 
 def write_keyval(keyval, filename_out='example/example.json'):
     with io.open(filename_out, "w", encoding='utf-8') as fileout:
+        # it asumes that will receive a path with a filename like 01.es.json
+        rootkey = ntpath.basename(filename_out).split(".")[1]
         outmsg = json.dumps({
-            "en": {k: v for k, v in ids}
+            rootkey: {k: v for k, v in ids}
         }, ensure_ascii=False, indent=2, sort_keys=True)
         fileout.write(outmsg)
 
@@ -143,6 +146,7 @@ if action == 'merge':
     file_out = options.output_filename
 
     with io.open(json_in, mode="r", encoding='utf-8') as f:
-        keys = json.load(f)['en']
+        jsonfile = json.load(f)
+        keys = jsonfile[list(jsonfile.keys())[0]]
 
     apply_keyval(keys, file_in, file_out)
